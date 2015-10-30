@@ -1,0 +1,13 @@
+{
+  "name": "collider-heroku",
+  "description": "Heroku collider websocket sample app.",
+  "keywords": [
+    "go",
+    "websocket",
+    "apprtc"
+  ],
+  "image": "heroku/go:1.5",
+  "mount_dir": "src/github.com/fitraditya/collider-heroku",
+  "website": "http://github.com/fitraditya/collider-heroku",
+  "repository": "http://github.com/fitraditya/collider-heroku"
+}

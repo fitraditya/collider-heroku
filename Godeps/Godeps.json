@@ -1,0 +1,14 @@
+{
+	"ImportPath": "collider-heroku",
+	"GoVersion": "go1.2.1",
+	"Deps": [
+		{
+			"ImportPath": "collider",
+			"Rev": "68ce688fe6361365171e16df93613e36e17b8f7c"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "1b27761f1cd4840a914b5255e4357385091562e5"
+		}
+	]
+}
