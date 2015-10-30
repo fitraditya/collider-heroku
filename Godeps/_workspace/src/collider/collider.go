@@ -39,14 +39,14 @@ func NewCollider(rs string) *Collider {
 }
 
 // Run starts the collider server and blocks the thread until the program exits.
-func (c *Collider) Run(p int, useTls bool) {
+func (c *Collider) Run(p string, useTls bool) {
 	http.Handle("/ws", websocket.Handler(c.wsHandler))
 	http.HandleFunc("/status", c.httpStatusHandler)
 	http.HandleFunc("/", c.httpHandler)
 
 	var e error
 
-	pstr := ":" + strconv.Itoa(p)
+	pstr := ":" + p
 	if useTls {
 		config := &tls.Config{
 			MinVersion: tls.VersionTLS12,
