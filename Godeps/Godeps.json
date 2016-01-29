@@ -1,0 +1,14 @@
+{
+	"ImportPath": "github.com/fitraditya/collider-heroku",
+	"GoVersion": "go1.2.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/fitraditya/collider",
+			"Rev": "099acbf0470b57868dccae2f79774f20766c6a65"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "04b9de9b512f58addf28c9853d50ebef61c3953e"
+		}
+	]
+}

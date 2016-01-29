@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/fitraditya/collider",
+	"GoVersion": "go1.2.1",
+	"Deps": [
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "04b9de9b512f58addf28c9853d50ebef61c3953e"
+		}
+	]
+}
