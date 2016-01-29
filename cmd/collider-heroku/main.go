@@ -6,8 +6,8 @@
 package main
 
 import (
-	"github.com/fitraditya/collider"
 	"flag"
+	"github.com/fitraditya/collider-heroku/Godeps/_workspace/src/github.com/fitraditya/collider"
 	"log"
 	"os"
 )
