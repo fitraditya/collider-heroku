@@ -6,7 +6,7 @@
 package main
 
 import (
-	"collider-heroku/Godeps/_workspace/src/collider"
+	"github.com/fitraditya/collider"
 	"flag"
 	"log"
 	"os"
